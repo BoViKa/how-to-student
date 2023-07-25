@@ -5,7 +5,9 @@
 .menuContainer {
     position: fixed;
     top: 0;
+    height: 10%;
     width: 100%;
+    background-color: grey;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
