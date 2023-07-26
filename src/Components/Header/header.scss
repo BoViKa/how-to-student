@@ -1,0 +1,30 @@
+$fadeOutTime: 0.4s;
+
+.container {
+    text-align: center;
+}
+
+.menuContainer {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    z-index: 999;
+}
+
+.mainMenu {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 100%;
+    transition: background-color $fadeOutTime ease-in-out;
+}
