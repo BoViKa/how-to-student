@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    height: 30%;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+}
+
+h1 {
+    
+}
+
+nav {
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    padding-right: 2em;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.linkOne {
+
+}
